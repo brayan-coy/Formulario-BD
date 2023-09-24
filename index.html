@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <form id="miFormulario">
+      <label>Nombre : </label>
+      <input type="text" name="nombre" placeholder="Nombre" /><br /><br />
+      <label>Edad : </label>
+      <input type="text" name="edad" placeholder="Edad" /><br /><br />
+      <label>Sexo : </label>
+      <input type="text" name="sexo" placeholder="Sexo" /><br /><br />
+      <label>Color favorito : </label>
+      <input
+        type="text"
+        name="color_favorito"
+        placeholder="Color favorito"
+      /><br /><br />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Datos existentes:</h2>
+    <div id="datosExistenes"></div>
+
+    <script src="obtenerdatos.php"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
