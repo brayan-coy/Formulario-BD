@@ -9,11 +9,20 @@
     $color_favorito = $_POST["color_favorito"];
 
     // Conectar a la base de datos
-    $servername = "localhost"; // Cambia esto si tu servidor de base de datos está en un lugar diferente
+/*     $servername = "localhost"; // Cambia esto si tu servidor de base de datos está en un lugar diferente
     $username = "root"; // Cambia esto por tu nombre de usuario de la base de datos
     $password = ""; // Cambia esto por tu contraseña de la base de datos
     $dbname = "formulario1";
+ */
 
+    $servername = "sql10.freesqldatabase.com"; // Cambia esto si tu servidor de base de datos está en un lugar diferente
+    $username = "sql10648604"; // Cambia esto por tu nombre de usuario de la base de datos
+    $password = "xkiGRBQavJ"; // Cambia esto por tu contraseña de la base de datos
+    $dbname = "sql10648604";
+
+
+
+    
     $conn = new mysqli($servername, $username, $password, $dbname);
   
     // Verificar la conexión
